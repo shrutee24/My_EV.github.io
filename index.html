@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-   
+    <link rel="stylesheet" href="hhhh_outer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+
 </head>
-   <style>
-      * {
-    font-family: 'Raleway', sans-serif;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+    * {
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
     top: 0px;
     text-decoration: none
+}
+
+.abc {
+    font-weight: 1000;
+    font-size: 23px;
+    letter-spacing: 0.1em;
+    color: black;
+    margin-left: 15px;
 }
 
 .img {
@@ -77,7 +96,7 @@ header {
 
 .navol li a {
     text-align: left;
-    top: 0px;
+    top: -12px;
     position: relative;
     left: 2px;
     float: right;
@@ -111,20 +130,35 @@ header {
     color: white;
 }
 
+.containerx:hover img {
+    animation: containerximg 2s ease-in-out;
+}
+
 .containerx img {
     height: 450px;
     width: 679px;
     top: 0px;
-    left: 207%;animation:containerximg 2s ease-in-out;
+    left: 207%;
     position: absolute;
 }
 
 
 @keyframes containerximg {
-    from{
-        left:187%;
+    from {
+        left: 187%;
     }
-    to{ left: 222%;}
+
+    to {
+        left: 222%;
+    }
+}
+
+.future {
+    top: 20px;
+    letter-spacing: 3px;
+    line-height: 29px;
+    font-size: 19px;
+    position: relative;
 }
 
 .cont2 {
@@ -145,23 +179,30 @@ header {
 }
 
 .line1b {
-    top: 130px;
+    top: 160px;
     border-left: 4px solid rgb(248, 243, 245);
     height: 110px;
     position: absolute;
     left: 10.0%;
     width: 2px;
+
+}
+
+.containerx:hover .line1b {
     animation: line1b 4s forwards;
 }
 
-@keyframes line1b {from{
-    top: 250px;
+@keyframes line1b {
+    from {
+        top: 250px;
+    }
+
+    to {
+        top: 160px;
+    }
+
 }
-to{
-    top:160px;
-}
-    
-}
+
 .linea1 {
     top: 752px;
     border-left: 3px solid #8080807a;
@@ -239,7 +280,7 @@ to{
     word-wrap: break-word;
     word-spacing: 2px;
     font-weight: 100;
-
+    font-weight: 400;
     letter-spacing: 3px;
     font-size: 21px;
 }
@@ -280,7 +321,7 @@ to{
 
 .rearimg {
     position: relative;
-    top: -63px;
+    top: 84px;
     left: 156%;
     width: 789px;
     height: 507px;
@@ -291,7 +332,7 @@ to{
     font-weight: 100;
     font-size: 35px;
 
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     line-height: 46px;
     word-break: break-word;
 
@@ -313,7 +354,7 @@ to{
     top: 445px;
     height: 285px;
     width: 338px;
-    border: 2px solid rgb(246, 245, 246);
+    border: 2px solid rgb(255, 255, 255);
     color: black;
 
 
@@ -323,8 +364,8 @@ to{
 
 .section2 h1 {
     font-weight: 100;
-    letter-spacing: 0.2em;
 
+    letter-spacing: 0.1em;
     line-height: 46px;
     position: relative;
     word-break: break-word;
@@ -336,7 +377,7 @@ to{
 
 .rearimg2 {
     position: relative;
-    top: -75px;
+    top: -30px;
     left: 100px;
     width: 666px;
     height: 460px;
@@ -367,7 +408,7 @@ to{
 
 .perception {
     font-weight: 100;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 
     font-size: 35px;
     line-height: 46px;
@@ -380,8 +421,8 @@ to{
 
 .view {
     position: relative;
-    top: 595px;
-    left: 150px;
+    top: 625px;
+    left: 120px;
     width: 688px;
     height: 583px;
     font-weight: 550;
@@ -404,17 +445,21 @@ to{
     position: absolute;
     left: 10.0%;
     width: 2px;
-    animation: v2 4s forwards;
-    animation-iteration-count: 2;
+    animation: v2 2s forwards;
+    animation-iteration-count: infinite;
 }
-@keyframes v2 {from{
-    top: 1600px;
+
+@keyframes v2 {
+    from {
+        top: 1600px;
+    }
+
+    to {
+        top: 1559px;
+    }
+
 }
-to{
-   top: 1559px;
-}
-    
-}
+
 .context {
     position: relative;
     top: 533px;
@@ -430,32 +475,39 @@ to{
     border-left: 3px solid #8080807a;
     height: 307px;
     position: absolute;
-    left: -20%;
+    left: -14%;
     width: 2px;
 }
 
-.linebcareer {animation-iteration-count:1;
-    animation:name1 4s  ease-in-out;
-    animation-fill-mode: forwards;
-    animation-iteration-count:1 ;
-    top: 59px;
+.linebcareer {
+
+    top: 75px;
     border-left: 4px solid rgb(248, 243, 245);
-    height: 150px;
+    height: 149px;
     position: absolute;
-    left: -20%;
+    left: -14%;
     width: 2px;
     font-size: 32px;
 }
+
+.conti:hover .linebcareer {
+    animation: name1 2s forwards;
+}
+
 @keyframes name1 {
-    from {top: 122px;
+    from {
+        top: 122px;
         display: none;
 
     }
+
     to {
-        top: 80px;
-        display: block; animation-fill-mode: forwards;
+        top: 90px;
+        display: block;
+        animation-fill-mode: forwards;
     }
 }
+
 .text-block {
     letter-spacing: 0.01em;
     word-spacing: 4px;
@@ -477,6 +529,23 @@ to{
     border: 1px solid rgb(231 226 231);
     top: 93px;
     padding: 30px 30px;
+
+
+}
+
+@keyframes textblock_anime {
+    from {
+        top: 200px;
+    }
+
+    to {
+        top: 144px;
+    }
+
+}
+
+.context:hover .text-block {
+    animation: textblock_anime 2s forwards;
 
 }
 
@@ -506,6 +575,14 @@ to{
 .x {
     height: 330px;
     width: 100%;
+}
+
+.scale img :hover .hide {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
 
 .x img {
@@ -538,16 +615,33 @@ to{
 
 }
 
+.x:hover .x img {
+    animation: ximg 4s forwards;
+}
+
+/* @keyframes ximg { 
+    from{
+        offset-path: path('M-50,-40 C-50,50 50,50 50,-40');
+    }
+to{
+  offset-path: path('M-50,-40 C-50,50 50,50 50,-40'); 
+}
+} */
 
 
 
 
 .scale img {
     height: 450px;
+    display: block;
     width: 500px;
     top: 89px;
     position: relative;
 }
+
+
+
+
 
 element {
     -ms-overflow-style: none;
@@ -577,28 +671,28 @@ body::-webkit-scrollbar {
     --fill-layer-image-opacity: 1;
     --fill-layer-video-opacity: 1;
     font-weight: 50;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+
+    font-weight: 500;
     text-align: center;
     color: black;
     overflow-wrap: break-word;
     line-height: 78px;
     font-size: 50px;
     line-height: 1.5em;
-    letter-spacing: 14px;
+    letter-spacing: 6px;
     position: absolute;
     height: 50px;
     width: 50%;
     border: 2px;
     left: 27%;
-    top: 26%;
+    top: 21%;
     object-position: 50% 50%;
 }
 
 
 
 .conti {
-    height: 750px;  
+    height: 750px;
     top: 550px;
     position: relative;
     width: 100%;
@@ -622,10 +716,14 @@ body::-webkit-scrollbar {
     color: rgb(19, 17, 17);
 }
 
+.cont2 :hover .v2 {
+    animation: line1b 4s forwards;
+}
+
 .linea {
     top: 100px;
     border-left: 3px solid #8080807a;
-    height: 408px;
+    height: 458px;
     position: absolute;
     left: 10%;
     width: 2px;
@@ -683,14 +781,16 @@ body::-webkit-scrollbar {
     padding: 16px 16px 16px 16px;
 }
 
-.textjenk h6 {    font-weight: 100;
+.textjenk h6 {
+    font-weight: 100;
     letter-spacing: 0.2em;
     line-height: 1.8em;
     word-break: break-word;
     font-size: 11px;
 }
 
-.textjenk p {    font-weight: 100;
+.textjenk p {
+    font-weight: 100;
     letter-spacing: 0.1em;
     line-height: 1.4em;
     word-break: break-word;
@@ -700,58 +800,52 @@ body::-webkit-scrollbar {
 }
 
 
-.conti:hover +.text-block1{
+.text-block1 {
     border-radius: 21px 21px;
     font-family: 'Raleway', sans-serif;
     position: relative;
     bottom: 20px;
     right: 20px;
     background-color: black;
-    color: white;   
+    color: white;
     padding-left: 20px;
     padding-right: 20px;
     display: block;
-    /* animation: name infinite  ease-in-out ;
 
-    animation-iteration-count:infinite; */
     left: 63%;
     height: 382px;
     width: 248px;
     border: 1px solid rgb(231 226 231);
     top: -36px;
-    animation-play-state: paused;
+
 
     padding: 30px 30px;
 
 }
 
- .conti:hover +.text-block1:hover {
-    animation: name 2s ease-in-out ;
-  animation-fill-mode: forwards;
-    animation-iteration-count:infinite;
+.text-block1:hover {
+    animation: name 4s forwards;
 }
+
 @keyframes name {
-    from {top: 22px;
-        display: none;
+    from {
+        top: 200px;
 
     }
+
     to {
+
         top: -36px;
-        display: block; animation-fill-mode: forwards;
+
     }
-    
-}
-.text-block1:not(hover){
-    display: block;
 
 }
-.change {
-    display: none;
-  }
 
 
 
-.text-block1 h3 {font-weight: 100;
+
+.text-block1 h3 {
+    font-weight: 100;
     letter-spacing: 0.2em;
 
 
@@ -765,12 +859,13 @@ body::-webkit-scrollbar {
     word-break: break-word;
     position: relative;
     line-height: 1.8em;
-    
+
     border-radius: 2px solid black;
 
 }
 
-.text-block1 h6 {font-weight: 100;
+.text-block1 h6 {
+    font-weight: 100;
     letter-spacing: 0.2em;
 
 
@@ -787,8 +882,10 @@ body::-webkit-scrollbar {
     top: 70px;
 }
 
-.text-block1 p {font-size: 16px;
-    font-weight: 100;  font-family: 'Raleway', sans-serif;
+.text-block1 p {
+    font-size: 16px;
+    font-weight: 100;
+
     letter-spacing: 0em;
     line-height: 1.5em;
     word-break: break-word;
@@ -856,34 +953,62 @@ body::-webkit-scrollbar {
 }
 
 .myfoot {
-    height: 700px;
+    line-height: 31px;
+    word-break: normal;
+    word-wrap: break-word;
+    word-spacing: 2px;
+    letter-spacing: normal;
+    /*    
+background-image: url("particle.gif");
+background-repeat: none; */
+    height: 500px;
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
-    background-color: white;
+
+    background-color: rgb(255 255 255);
     color: rgb(15, 14, 14);
-    background-color: rgb(249, 245, 245);
+
+}
+
+
+.fafahi a {
+    text-decoration: none;
+    color: black;
+}
+
+.copy {
+    position: relative;
+    right: 173%;
+    top: 166px;
 }
 
 .b1 {
+    font-size: 22px;
     list-style: none;
     text-decoration: none;
-    top: 92px;
-    font-family: 'Raleway', sans-serif;
-    height: 200px;
+    top: 187px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 1.5em;
+    height: 300px;
+    background-color: rgb(255 255 255);
     width: 300px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     position: relative;
     left: 16%;
+    color: #ffffff;
 }
 
 .b2 {
-    font-family: 'Raleway', sans-serif;
+
     height: 201px;
+    text-decoration: none;
     width: 300px;
     left: 35%;
-    top: -38px;
-    border: 2px solid black;
+    top: 17px;
+    border: 2px solid rgb(255, 255, 255);
     position: relative;
 }
 
@@ -892,27 +1017,30 @@ body::-webkit-scrollbar {
     text-decoration: none;
     height: 199px;
     width: 433px;
+    text-decoration: none;
     left: 65%;
-    font-family: 'Raleway', sans-serif;
-    top: -239px;
-    border: 2px solid black;
+
+    top: -323px;
+
+    border: 2px solid rgb(255, 255, 255);
     position: relative;
 }
 
 .b1 li {
-    font-size: 16px;
-    color: black;
+    font-size: 19px;
+    color: rgb(225, 217, 217);
     list-style: none;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
 
 .b2 li {
-    font-size: 16px;
+    font-size: 19px;
     color: black;
     list-style: none;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
 }
 
 .b3 li {
@@ -920,12 +1048,15 @@ body::-webkit-scrollbar {
     color: black;
     list-style: none;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
 }
 
 .b3 button {
     height: 37px;
-    width: 78px;
+
+    width: 88px;
+
     border-radius: 15px;
 }
 
@@ -935,188 +1066,314 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-.form-control-memail {
-    height: 30px;
+input {
+    width: 244px;
+    height: 33px;
 }
-   </style>
-<body> 
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+.fa-google {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: black;
+    color: white;
+}
+
+.fa-youtube {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+/* .H{ font-size: 22px;} */
+.containerx {
+    image-rendering: auto;
+}
+
+/* .H{ font-size: 22px;} */
+.containerx {
+    image-rendering: auto;
+}
+
+.fafahi {
+    top: -96px;
+    position: relative;
+    right: 115%;
+    height: 100px;
+    text-align: center;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 480px) {
+    .webp {
+        width: 480px;
+        height: 500px;
+    }
+
+
+
+}
     
-    <header>  
-        <navbar >
+    
+    </style>
+<body>
+
+    <header>
+        <navbar>
             <ul class="navol">
-                <li><div> <a href="#">Technology </a></div></li>
-                <li><div> <a href="#">About </a></div></li>
-                <li><div> <a href="A.html">Careers </a></div></li>
-               <button class="subscribe"> <a href="#"><h1>Subscribe </h1></button></div>
-            </ul></navbar>
-    
-    
-    
-    
+                <li>
+                    <div> <a href="#">Technology </a></div>
+                </li>
+                <li>
+                    <div> <a href="#">About </a></div>
+                </li>
+                <li>
+                    <div> <a href="A.html">Careers </a></div>
+                </li>
+                <button class="subscribe"> <a href="#">
+                        <h1>Subscribe </h1></button></div>
+                <a class="abc" href="https://shrutee24.github.io/my_ev.github.io/">AUTONO</a>
+            </ul>
+        </navbar>
 
-    
-    
-    <img class=" webp1" src="auto.webp" height="75%" width="100%">
-    <h1 class="H">THE FUTURE OF MOBILITY IS HERE </h1><br>
 
-          
-</header>
+
+
+
+
+
+        <img class=" webp1" src="auto.webp" height="75%" width="100%">
+        <h1 class="H">THE FUTURE OF MOBILITY IS HERE
+            <br>
+            <p class="future">Discover the safest self-driving experience with Autono.</p>
+
+    </header>
+    </h1><br>
     <div class="begin">
-    <div class="containerx">
-   
+        <div class="containerx">
 
 
-        <span class="linea"></span>
-        <span class="line1b"></span>
-        
-        <div class="text">
-        <h6> VISION</h6><br><br>
-        <h3>    We’re Changing the Way the World Thinks About Cars</h3>
-        <br><br><br><section>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a 
-            great place for you to tell a story and let your users know a little more about you.</section>
-        
-        <img src="autonoblackiee.PNG">
-           
+
+            <span class="linea"></span>
+            <span class="line1b"></span>
+
+            <div class="text">
+                <h6> VISION</h6><br><br>
+                <h3> We’re Changing the Way the World Thinks About Cars</h3>
+                <br><br><br>
+                <section>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
+                    or double click me to add your own content and make changes to the font. I’m a
+                    great place for you to tell a story and let your users know a little more about you.</section>
+
+                <img src="autonoblackiee.PNG">
+
+            </div>
         </div>
-        </div>    </div> 
-        
-        
-        
-        <div class="cont2">
-            <span class="linea1"></span>
-      <!-- <span class="lineb1"></span> -->
-        
-            <div class="text1">
-                <h6> SERVICES</h6><br><br>
-                
-                <h3> We Deliver Exceptional Products and Services Around the World</h3> 
-            <img class="rearimg" src="autono3.PNG" > </div> 
-         
-                <section class="section">   
-                    <h1 >AUTONOMOUS DRIVING</h1><br>
-         I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a 
-                    great place for you to tell a story and let your users know a little more about you.
-                  
-               </section>
-                   
-              
-                </div> 
-               
-          
-                   
-              
-                </div> 
-               
-               <!-- <div class="tab"> </div>-->
-                <section class="section2"><h1 >REAL-TIME INFORMATION</h1><br>
-                <div>  I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a 
-                    great place for you to tell a story and let your users know a little more about you.
-                    
-                </div> </section>
-               <img class="rearimg2" src="autopng1.PNG" > 
-        
-               <img class="view" src="autonoview.png" >  
-               <section class="section3">  
-                <h1 class="perception" >PERCEPTION ENABLED</h1>
-                <br>
-        <div>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a 
-                great place for you to tell a story and let your users know a little more about you.
-              
-            </div> </section></div> 
-  <div class="text">
-    
-  
-       
     </div>
-    <div class="context">   
+
+
+
+    <div class="cont2">
+        <span class="linea1"></span>
+        <!-- <span class="lineb1"></span> -->
+
+        <div class="text1">
+            <h6> SERVICES</h6><br><br>
+
+            <h3> We Deliver Exceptional Products and Services Around the World</h3>
+            <img class="rearimg" src="autono3.PNG">
+        </div>
+
+        <section class="section">
+            <h1>AUTONOMOUS DRIVING</h1><br>
+            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+            click me to add your own content and make changes to the font. I’m a
+            great place for you to tell a story and let your users know a little more about you.
+
+        </section>
+
+
+    </div>
+
+
+
+
+    </div>
+    <div class="enni">
+
+        <section class="section2">
+            <h1>REAL-TIME INFORMATION</h1><br>
+            <div> I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double
+                click me to add your own content and make changes to the font. I’m a
+                great place for you to tell a story and let your users know a little more about you.
+
+            </div>
+        </section>
+        <img class="rearimg2" src="autopng1.PNG">
+
+        <img class="view" src="autonoview.png">
+        <section class="section3">
+            <h1 class="perception">PERCEPTION ENABLED</h1>
+            <br>
+            <div>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double
+                click me to add your own content and make changes to the font. I’m a
+                great place for you to tell a story and let your users know a little more about you.
+            </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    <div class="text">
+
+
+
+    </div>
+    <div class="context">
         <img src="automation.jpg" alt="Automatn" style="width:100%;">
         <div class="text-block">
-    
-          <h6> WHY AUTONO</h6><br><br>
-    <h3 class="text-blockh3">   <div> A different approach, using a new method of manufacturing.</h3>
-    <br> <br><br> <section>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a 
-        great place for you to tell a story and let your users know a little more about you.</div></section>
-    
+
+            <h6> WHY AUTONO</h6><br><br>
+            <h3 class="text-blockh3">
+                <div> A different approach, using a new method of manufacturing.
+            </h3>
+            <br> <br><br>
+            <section>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                double click me to add your own content and make changes to the font. I’m a
+                great place for you to tell a story and let your users know a little more about you.
         </div>
-      </div>
-      <div class="vl"></div>
-      <div class="v2"></div>
-  </div>
+        </section>
+
+    </div>
+    </div>
+    <div class="vl"></div>
+    <div class="v2"></div>
+    </div>
     <div class="x">
 
-      <img src="wisp.webp">
-      <div class="scale"> <h2>OUR PARTNERS</h2>
-        <img src="partners.PNG" >
-      </div>
+        <img src="wisp.webp">
+        <div class="scale">
+            <h2>OUR PARTNERS</h2>
+            <img src="partners.PNG">
+        </div>
     </div>
 
 
 
 
- <div class="conti">
-   
+    <div class="conti">
 
 
 
-    
-    <div class="textjenk"><br>
-    <h6>CAREERS</h6><br>
-        <span class="lineacareer"></span>
-        <span class="linebcareer"></span><br><br><br>
-    <p>We’re looking for innovative talent to join our team. See all positions and submit your CV.
-
-    </p></div></div>
 
 
- 
+        <div class="textjenk"><br>
+            <h6>CAREERS</h6><br>
+            <span class="lineacareer"></span>
+            <span class="linebcareer"></span><br><br><br>
+            <p>We’re looking for innovative talent to join our team. See all positions and submit your CV.
 
-     <div class="text-block1">
+            </p>
+        </div>
+    </div>
 
-        <h3> 
+
+
+
+    <div class="text-block1">
+
+        <h3>
             ELECTRICAL ENGINEER</h3>
- 
-  <section> <h6>   San Francisco, CA</h6><p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know
-     a little more about you.</p></section>
-  
-      </div> 
 
+        <section>
+            <h6> San Francisco, CA</h6>
+            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double
+                click me to add your own content and make changes to the font. I’m a great place for you to tell a story
+                and let your users know
+                a little more about you.</p>
+        </section>
 
+    </div>
 
-</div> <br>
 
     <footer class="myfoot">
-<div class="b1">
-    <ul>
-        <li> <a href="#">AUTONO</a></li><br><br><br>
-        <li> <a href="#">Technology</a></li><br>
-        <li> <a href="#">About
 
-        </a></li><br>
-        <li> <a href="#">Careers</a></li>
-    </ul> </div>
-    <div class="b2">
-        <ul>
-            <li> <a href="#">Tel: 123-456-7890</a></li><br>
-            <li> <a href="#">Email: info@mysite.com</a></li><br>
-            <li> <a href="#">500 Terry Francois St San Francisco, CA 94158  </a></li>
-           
-        </ul> </div>
+        <div class="b1">
+            <ul>
+                <li> <a href="#">AUTONO</a></li><br><br><br>
+                <li> <a href="#">Technology</a></li><br>
+                <li> <a href="#">About
+
+                    </a></li><br>
+                <li> <a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="b2">
+            <ul>
+                <li> <a href="#">Tel: 123-456-7890</a></li><br>
+                <li> <a href="#">Email: info@mysite.com</a></li><br>
+                <li> <a href="#">500 Terry Francois St San Francisco, CA 94158 </a></li>
+
+            </ul>
+        </div>
         <div class="b3">
             <ul>
-                <li> <a href="#">  SUBSCRIBE</a></li><br>
+                <li> <a href="#"> SUBSCRIBE</a></li><br>
                 <li> <a href="#">Sign up to receive Autono news and updates.</a></li><br>
-                <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                    <input type="text" name="EMAIL" class="form-control-memail" placeholder="Email">
-                    <button  type="submit">Subscribe</button><br>
-            </ul> </div>
+                <form action="#" class="sub_mail">
+                    <input type="text" size="30" name="EMAIL" class="email_f" placeholder="Email">
+                    <button type="submit">Subscribe</button><br>
+            </ul>
+            <p class="copy"> &copy; 2023 by Autono.</p>
+            <br> <br> <br> <br> <br> <br> <br>
+            <div class="fafahi">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
 
 
+            </div>
+
+        </div>
+
+    </footer>
 
 
-
-
-    </footer> 
-
-        
 </body>
+
 </html>
